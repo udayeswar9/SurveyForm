@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="b">
+<h2 id="t">Customer Survey Form</h2>
+<div id="f">
+<form id="surveyForm">
+    <div id="ff">
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" required><br><br>
+    </div>
+    <div id="ff">
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" required><br><br>
+    </div>
+    <div id="ff">
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" required><br><br>
+    </div>
+    <div>
+    <label for="country">Country:</label><br>
+    <select id="country" required>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+    </select><br><br>
+    </div>
+    <div>
+    <label>Gender:</label><br>
+    <input type="checkbox" id="male">Male
+    <input type="checkbox" id="female">Female
+    <input type="checkbox" id="other">Other<br><br>
+    </div>
+    <div>
+    <label for="profession">Profession:</label><br>
+    <input type="text" id="profession" required><br><br>
+    </div>
+    <div>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" required><br><br>
+    </div>
+    <div>
+    <label for="mobile">Mobile Number:</label><br>
+    <input type="tel" id="mobile" required><br><br>
+    </div>
+    <div>
+    <button type="button" id="submitBtn">Submit</button>
+    <button type="button" id="resetBtn">Reset</button>
+    </div>
+</form>
+</div>
+</div>
+<div id="popup" style="display: none;">
+    <h2 style="color:green">Survey Form Submission</h2>
+    <p id="submittedData"></p>
+    <button id="closePopup">Close</button>
+</div>
+
+<script src="./script.js">
+</script>
+</body>
+</html>

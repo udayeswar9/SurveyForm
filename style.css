@@ -1,0 +1,30 @@
+#b{
+    background-color:skyblue;
+    width:500px;
+    height:600px;
+    text-align:center;
+    padding:20px;
+}
+#f{
+   background-color:white;
+   padding:20px;
+}
+#submitBtn{
+    color:white;
+    background-color: rgb(25, 71, 187);
+}
+#resetBtn{
+    color:white;
+    background-color:rgb(209, 49, 49);
+}
+#popup{
+    width:480px;
+    height:250px;
+    text-align:center;
+    padding:20px;
+    border:10px solid green;
+}
+#closePopup{
+   color:white;
+   background-color: rgb(21, 167, 65);
+}
